@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Franklin Joseph J - Portfolio</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <!-- 3D Canvas Background -->
+  <canvas id="bg-canvas"></canvas>
+
+  <div class="app-container">
+    <nav class="navbar">
+      <div class="logo">FRANK<span>.</span></div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certificates</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-outline">Contact Me</a>
+    </nav>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="hero" class="hero section">
+        <div class="hero-content" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare
+          data-tilt-max-glare="0.5">
+          <p class="greeting">Hi, I'm</p>
+          <h1 class="name">Franklin<br>Joseph.</h1>
+          <h2 class="title">AI Engineer & Full-Stack Developer</h2>
+          <p class="tagline">Building scalable Python applications & AI solutions that matter.</p>
+          <div class="cta-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="https://github.com/Strange67890" target="_blank" class="btn btn-icon">GitHub</a>
+            <a href="https://linkedin.com/in/franklinjosephj" target="_blank" class="btn btn-icon">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section glass-section">
+        <h2>About Me</h2>
+        <div class="about-flex">
+          <div class="about-text">
+            <p>
+              Adaptable B.Tech CSE student specializing in Artificial Intelligence with a focus on building scalable
+              Python applications. Proficient in developing efficient algorithms and integrating Machine Learning models
+              into software solutions.
+            </p>
+            <p>
+              Passionate about writing clean, 'Pythonic' code and leveraging data-driven insights to solve complex
+              engineering problems.
+            </p>
+            <h3>Education</h3>
+            <div class="edu-item">
+              <p><strong>B.Tech in Computer Science - Artificial Intelligence</strong></p>
+              <p>Dr. MGR Educational And Research Institute, Chennai (2022 - 2026)</p>
+            </div>
+            <div class="edu-item">
+              <p><strong>Higher Secondary Education (Class XII)</strong></p>
+              <p>MCC Madras Christian College Higher Secondary School (2022)</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="section">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category glass-card" data-tilt>
+            <h3>Languages</h3>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">SQL</span>
+              <span class="tag">C++</span>
+            </div>
+          </div>
+          <div class="skill-category glass-card" data-tilt>
+            <h3>AI & Machine Learning</h3>
+            <div class="tags">
+              <span class="tag">NumPy</span>
+              <span class="tag">Pandas</span>
+              <span class="tag">Scikit-Learn</span>
+              <span class="tag">Matplotlib</span>
+              <span class="tag">Seaborn</span>
+            </div>
+          </div>
+          <div class="skill-category glass-card" data-tilt>
+            <h3>Technologies & Tools</h3>
+            <div class="tags">
+              <span class="tag">Prompt Engineering</span>
+              <span class="tag">React.js</span>
+              <span class="tag">REST APIs</span>
+              <span class="tag">Git & GitHub</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section id="experience" class="section glass-section">
+        <h2>Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Software Development Intern</h3>
+              <p class="company">CPC Everlife Diagnostics Pvt. Ltd. | Aug 2025 - Sep 2025</p>
+              <ul class="duties">
+                <li>Built an ASP.NET HelpDesk ticketing system with secure authentication.</li>
+                <li>Managed ticket handling and automated email notifications for streamlined support.</li>
+                <li>Implemented file attachments functionality and utilized MySQL Server for backend support.</li>
+                <li>Boosted organizational productivity by replacing manual tracking with an automated system, ensuring
+                  100% visibility of IT issues.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card glass-card" data-tilt>
+            <h3>Deforestation Detection And Alert System Using ML</h3>
+            <p class="project-tags">Python, REST APIs, React.js | 2025 - 2026</p>
+            <ul>
+              <li>End-to-end AI-powered deforestation detection system using DL and satellite imagery (85-90% accuracy).
+              </li>
+              <li>Built RESTful API backend with Flask serving 7+ endpoints for predictions/analytics.</li>
+              <li>Designed professional React.js dashboard with interactive Leaflet maps.</li>
+            </ul>
+          </div>
+          <div class="project-card glass-card" data-tilt>
+            <h3>Edge & Obstacle Avoiding Robot</h3>
+            <p class="project-tags">Python, C++, Machine Learning | 2024 - 2025</p>
+            <ul>
+              <li>Autonomous robot capable of edge/obstacle detection using sensor fusion.</li>
+              <li>Integrated ultrasonic and IR sensors for real-time sensing.</li>
+              <li>Trained Decision Tree classification model on real sensor data for safe navigation.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certifications Section -->
+      <section id="certifications" class="section glass-section">
+        <h2>Certifications</h2>
+        <ul class="cert-list">
+          <li><strong>AWS Cloud Practitioner Essentials (2025)</strong>: Foundational understanding of AWS
+            infrastructure (EC2, S3, RDS).</li>
+          <li><strong>RedHat System Administration 1 (2024)</strong>: Proficiency in shell scripting, file system
+            management, and process management.</li>
+          <li><strong>Python for Data Science (NPTEL - 2024)</strong>: Specialized course on NumPy, Pandas, exploratory
+            data analysis.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <div class="footer-content">
+        <h2>Let's Connect</h2>
+        <p>samj27019@gmail.com | +91-6381724231</p>
+        <div class="footer-links">
+          <a href="https://linkedin.com/in/franklinjosephj">LinkedIn</a>
+          <a href="https://github.com/Strange67890">GitHub</a>
+        </div>
+        <p class="copyright">© 2026 Franklin Joseph J. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
